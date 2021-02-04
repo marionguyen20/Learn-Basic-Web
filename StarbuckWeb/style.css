@@ -128,10 +128,10 @@ header ul li a {
 }
 
 .sci {
-    position: relative;
+    position: absolute;
     top: 50%;
-    /* right: 10px; */
-    /* transform: translateY(-10%); */
+    right: -7%;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
