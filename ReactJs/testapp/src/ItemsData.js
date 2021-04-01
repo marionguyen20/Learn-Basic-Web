@@ -16,7 +16,7 @@ const todoData = [
     },
     {
         id: 4,
-        text: "Learning JSM",
+        text: "Learning JSX",
         completed: true
     }
 ]
