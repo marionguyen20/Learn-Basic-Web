@@ -4,11 +4,12 @@ import MyApp from './MyApp'
 import MyProductApp from './MyProductApp'
 import LoginControl from './ConditionRender'
 import API from './FetchingDataFromAPI'
+import Form from './Form'
 
 
 
 ReactDOM.render(
-    <API />    
+    <Form />    
     , document.getElementById('root')
 );
 
