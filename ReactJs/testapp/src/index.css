@@ -31,3 +31,9 @@ code {
   border-bottom: 1px solid #cecece;
   font-weight: bold;
 }
+
+.completedStyle {
+  font-style: italic;
+  color: #cdcdcd;
+  text-decoration: line-through;
+}

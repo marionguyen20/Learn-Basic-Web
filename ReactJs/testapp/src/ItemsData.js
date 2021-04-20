@@ -18,6 +18,11 @@ const todoData = [
         id: 4,
         text: "Learning JSX",
         completed: true
+    },
+    {
+        id: 5,
+        text: "Learning Data Mining",
+        completed: false
     }
 ]
 export default todoData

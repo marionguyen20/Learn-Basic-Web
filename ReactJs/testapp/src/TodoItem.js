@@ -1,6 +1,7 @@
 import React from 'react';
 
 function TodoItem (props) {
+
     return (
         <div className = "todo-item">
 
@@ -9,7 +10,7 @@ function TodoItem (props) {
                 checked = {props.items.completed} 
                 onChange = {() => props.handleChange(props.items.id)}
             />
-            <p>{props.items.text}</p>
+            <p className = {props.items.completed ? "completedStyle" : null}>{props.items.text}</p>
 
         </div>
     )
