@@ -24,7 +24,7 @@ const Cards = () => {
                             src = {img2}
                             text = 'Travel through the Islands of Bali in a Private Cruise'
                             label = 'Luxury'
-                            path = '/Service'
+                            path = '/Product'
                         />
                     </ul>
                     <ul className = 'cards-items'>
@@ -32,7 +32,7 @@ const Cards = () => {
                             src = {img3}
                             text = 'Set Sail in the Atlantic Ocean visiting Uncharted Water'
                             label = 'Mystery'
-                            path = '/Service'
+                            path = '/Sign-up'
                         />
                         <CardItem 
                             src = {img4}
@@ -44,7 +44,7 @@ const Cards = () => {
                             src = {img8}
                             text = 'Ride through the Sahara Desert on a guided camel tour'
                             label = 'Andrena Line'
-                            path = '/Service'
+                            path = '/Product'
                         />
                     </ul>
                 </div>

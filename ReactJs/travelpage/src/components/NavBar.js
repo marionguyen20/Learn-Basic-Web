@@ -45,17 +45,17 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li className = 'nav-items'>
-                        <Link to = '/services' className = 'nav-links' onClick = {closeMobileMenu}>
+                        <Link to = '/Service' className = 'nav-links' onClick = {closeMobileMenu}>
                             Services
                         </Link>
                     </li>
                     <li className = 'nav-items'>
-                        <Link to = '/products' className ='nav-links' onClick = {closeMobileMenu}>
+                        <Link to = '/Product' className ='nav-links' onClick = {closeMobileMenu}>
                             Products
                         </Link>
                     </li>
                     <li className = 'nav-items'>
-                        <Link to = '/sign-up' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
+                        <Link to = '/Sign-up' className = 'nav-links-mobile' onClick = {closeMobileMenu}>
                             Sign up
                         </Link>
                     </li>

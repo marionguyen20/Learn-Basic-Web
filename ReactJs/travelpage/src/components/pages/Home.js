@@ -1,5 +1,6 @@
 import '../../App.css'
 import Cards from '../Cards'
+import Footer from '../Footer'
 import HeroSection from '../HeroSection'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <>
             <HeroSection />
             <Cards />
+            <Footer />
         </>
     )
 }
